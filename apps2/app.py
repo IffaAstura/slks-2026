@@ -17,7 +17,7 @@ table = dynamodb.Table('ListTeman')
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/app2')
 def index():
     response = table.scan()
     return jsonify(response['Items'])
