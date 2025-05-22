@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <h1>Form Pendaftaran</h1>
+    <form id="userForm">
+        <label>Nama: <input type="text" id="nama" required></label><br>
+        <label>Kelas: <input type="text" id="kelas" required></label><br>
+        <label>Sekolah: <input type="text" id="sekolah" required></label><br>
+        <label>Gender:
+            <input type="radio" name="gender" value="Laki-laki" required> Laki-laki
+            <input type="radio" name="gender" value="Perempuan"> Perempuan
+        </label><br><br>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
